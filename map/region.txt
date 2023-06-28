@@ -1,0 +1,3777 @@
+# Audax Validator "!" Ignore_1006
+# Audax Validator "!" Ignore_1004
+
+# A province can only belong to one region!
+
+# random_new_world_region is used for RNW. Must be first in this list.
+random_new_world_region = {
+}
+
+########################################
+# 1 EUROPE                              
+########################################
+
+# 1.1 - British Isles
+british_isles_region = {
+	areas = {
+		### ENGLAND & WALES ###
+		east_midlands_area
+		west_midlands_area
+		yorkshire_area
+		home_counties_area
+		east_anglia_area
+		wales_area
+		central_wales_area
+		east_wales_area
+		pembroke_area
+		dumnonia_area
+		east_dumnonia_area
+		south_wessex_area
+		wessex_area
+		sussex_area
+		essex_area
+		anglia_area
+		humberside_area
+		northumberland_area
+		cumbria_area
+		lancashire_area
+	}
+}
+
+ireland_region = {
+	areas = {
+		### IRELAND ###
+		munster_area
+		connacht_area
+		leinster_area
+		ulster_area
+		limerick_area
+		sligo_area
+		donegal_area
+		fermanagh_tyrone_area
+		northulster_area
+		kildare_area
+		offaly_area
+		thepale_area
+		ormond_area
+		cork_area
+	}
+}
+
+scotland_region = {
+	areas = {
+		### SCOTLAND ###
+		lowlands_area
+		highlands_area
+		kingdom_of_the_isles_area
+		scottish_marches_area
+		dumfries_area
+		clydevalley_area
+		northeastscotland_area
+		argyllbute_area
+		lochs_area
+	}
+}
+
+# 1.2 - France
+france_region = {
+	areas = {
+		### BRITTANY ###
+		finistere_area
+		cotes_damour_area
+		brittany_area
+
+		### LANGUES d'OIL ###
+		normandy_area
+		upper_normandy_area
+		lower_normandy_area
+		nord_calais_area
+		south_calais_area
+		somme_area
+		picardy_area
+		ile_de_france_area
+		ardennes_area
+		champagne_area		
+		lorraine_area
+		upper_marne_area
+		alsace_area
+		south_alsace_area
+		vosges_area
+		franche_comte_area
+		jura_area
+		bourgogne_area
+		yonne_area
+		vendee_area
+		loire_area
+		eure_et_loir_area
+		centralfrance_area
+		poitou_area
+		charentes_area
+
+		### OCCITAIN ###
+		limousin_area
+		gironde_area
+		guyenne_area
+		aquitaine_area
+		pyrenees_area
+		dordogne_area
+		lotfrance_area
+		aude_area
+		toulouse_area
+		roussillion_area
+		languedoc_area
+		auvergne_area
+		allier_area
+		ardeche_area
+		rhone_area
+		provence_area
+		provence_alpes_area
+		massif_central_area
+		savoy_dauphine_area
+	}
+}
+
+# 1.3 - Iberia
+iberia_region = {
+	areas = {
+		### SPAIN ###
+		baleares_area
+		barcelona_gerona_area
+		aragon_area
+		tarragona_area
+		huesca_area
+		catalonia_area
+		valencia_area
+		alicante_area
+		murcia_area
+		cuenca_area
+		castille_area
+		basque_country
+		alava_area
+		cantabria_area
+		asturias_area
+		leon_area
+		galicia_area
+		pontevedra_area
+		valladolid_area
+		salamanca_area
+		toledo_area
+		jaen_area
+		cordoba_area
+		badajoz_area
+		seville_area
+		cadiz_area
+		lower_andalucia_area
+		upper_andalucia_area
+
+		### PORTUGAL ###
+		douro_litoral_area
+		beieras_area
+		estremadura_area
+		alentejo_area
+		algarve_area
+		azores_area
+	}
+}
+
+# 1.4 - Italy
+italy_region = {
+	areas = {
+		### ITALY ###
+		imperia_area
+		piedmont_area
+		savonna_area
+		liguria_area
+		alessandria_area
+		torino_area
+		upper_piedmont_area
+		lombardy_area
+		ne_lombardy_area
+		sw_lombardy_area
+		se_Lombardy_area
+		emilia_romagna_area
+		verona_area
+		trentino_area
+		friuli_area
+		n_venetia_area
+		venetia_area
+		padova_area
+		bologna_area
+		ferrara_area
+		massa_lucca_area
+		tuscany_area
+		tuscany_coast_area
+		siena_area
+		sienese_coast_area
+		rimini_area
+		urbino_area
+		macareta_area
+		perugia_area
+		n_lazio_area
+		s_lazio_area
+		teramo_area
+		abruzzo_area
+		naples_area
+		molise_area
+		foggia_area
+		campagna_area
+		basilicata_area
+		cosenza_area
+		calabria_area
+		apulia_area
+		central_italy_area
+
+		### ISLANDS ###
+		sicily_area
+		palermo_area
+		agrigento_area
+		malta_area
+		corsica_sardinia_area
+		sassari_area
+		cagliari_area
+	}
+}
+
+# 1.5 - South Germany
+south_german_region = {
+	areas = { 
+		# SWITZERLAND
+		switzerland_area
+		romandie_area
+		jurassia_area
+		swissmittelland_area
+		zurich_area
+		easternswiss_area
+		ticino_area
+		graubunden_area
+
+		# AUSTRIA
+		vorarlberg_area
+		tirol_area
+		east_tirol_area
+		salzburg_area
+		south_tyrol_area
+		carinthia_area
+		south_styria_area
+		west_styria_area
+		east_styria_area
+		burgenland_area
+		austria_proper_area
+		middle_austria_area
+		inner_austria_area
+
+		# SOUTHERN GERMANY
+		lower_bavaria_area
+		upper_bavaria_area
+		munich_area
+		landshut_area
+		ingolstadt_area
+		bavarianforest_area
+		franconia_area
+		lowerfranconia_area
+		upperfranconia_area
+		lower_swabia_area
+		upper_swabia_area
+		upper_rhineland_area
+		stuttgart_area
+		northstuttgart_area
+		badenbaden_area
+		palatinate_area
+		saarland_area
+		rhineland_area
+		west_rhineland_area
+		frankfurt_area
+	}
+}
+
+# 1.6 - North Germany
+north_german_region = {
+	areas = { 
+		south_saxony_area
+		erzgebirge_area
+		thuringia_area
+		norththuringia_area
+		hesse_area
+		marburg_area
+		westphalia_area
+		north_rhine_area
+		arnsberg_area
+		braunschweig_area
+		dessau_area
+		lower_saxony_area
+		northern_saxony_area
+		mittelmark_area
+		neumark_area
+		muritz_area
+		vorpommern_area
+		mecklenburg_area
+		westmecklenburg_area
+		luneburg_area
+		hamburg_area
+		verden_area
+		weser_area
+		hanover_area
+		lower_rhineland_area
+		munsterphalia_area
+		holstein_area
+		eastholstein_area
+	}
+}
+
+# 1.7 - Low Countries
+low_countries_region = {
+	areas = {
+		eastfrisia_area
+		frisia_area
+		meppen_area
+		netherlands_area
+		gelderland_area
+		holland_area
+		southholland_area
+		zeeland_area
+		nl_limburg_area
+		northbrabant_area
+		flanders_area
+		hainaut_area
+		southbrabant_area
+		liege_area
+		wallonia_area
+	}
+
+}
+
+# 1.8 - Scandinavia
+scandinavia_region = {
+	areas = {
+		# DENMARK
+		jutland_area
+		ribe_area
+		denmark_area
+		midtylland_area
+		aarhus_area
+		viborg_area
+		nordjylland_area
+		lalland_area
+		copenhagen_area
+
+		# SWEDEN
+		svealand_area
+		norrland_area
+		gotaland_area
+		skaneland_area
+		vastra_gotaland_area
+		ostra_svealand_area
+		blekinge_area
+		jonkoping_area
+		varmland_area
+		orebro_area
+		ostergotland_area
+		stockholm_area
+		uppsala_area
+		dalarna_area
+		jamtland_area
+		vasterbotten_area
+		lapland_area
+
+		# NORWAY
+		ostfold_area
+		oslo_area
+		agder_area
+		rogaland_area
+		hordaland_area
+		sognogfjordane_area
+		western_norway
+		oppland_area
+		hedmark_area
+		sortrondelag_area
+		northern_norway
+		eastern_norway
+		troms_area
+
+		# ICELAND & GREENLAND
+		subarctic_islands_area
+		iceland_area
+		sutherland_area
+		narsarsuaq_area
+		kangarlussuaq_area
+		sisimiut_area
+		ilulussat_area
+		greenland_area
+	}
+}
+
+# 1.8b - Finland
+finland_region = {
+	areas = {
+		# FINLAND
+		finland_area
+		kymenlaakso_area
+		pohjois_savo_area
+		varsinais_area
+		satakunta_area
+		pirkanmaa_area
+		bothnia_area
+		kainuu_area
+		laponia_area
+		karelia_area
+		north_karelia
+		finnmark
+	}
+}
+
+# 1.9 - Lechia
+poland_region = {
+	areas = {
+		# CZECH
+		bohemia_area
+		plzen_area
+		ceske_budejovice_area
+		brno_area
+		ostrava_area
+		pardubice_area
+		usti_nad_labem_area
+
+		# POLAND
+		silesia_area
+		upper_oder_area
+		malopolska_area
+		podkarpackie_area
+		sandomierz_area
+		lublin_area
+		opole_area
+		wroclaw_area
+		lower_silesia_area
+		lubusz_area
+		hinter_pommern_area
+		west_pomerania_area
+		stettin_area
+		west_prussia_area
+		vistula_area
+		east_prussia_area
+		neman_river_area
+		warmia_area
+		lodz_area
+		wielkopolska_area
+		poznan_area
+		kuyavia_area
+		masuria_area
+		podlasie_area
+		mazovia_area
+		central_poland_area
+
+		pomerelia_area
+
+		# SLOVAKIA
+		slovakia_area
+		trencin_area
+		preslov_area
+		zilina_area
+	}
+}
+
+# 1.10 - Baltic
+baltic_region = {
+	areas = {
+		# LITHUANIA
+		samogitia_area
+		lithuania_area
+		sudovia_area
+		aukstaitija_area
+
+		# LATVIA
+		curonia_area
+		semigallia_area
+		pieriga_area
+		livonia_area
+		latgallia_area
+
+		# ESTONIA
+		estonia_ingria_area
+		livland_area
+		estland_area
+		saaremaa_area
+	}
+}
+
+# 1.11 - Ruthenia
+ruthenia_region = {
+	areas = {
+		# BELARUS
+		hrodna_area
+		brest_area
+		gomel_area
+		minsk_area
+		mogilev_area
+		white_ruthenia_area
+		polotsk_area
+
+		# UKRAINE
+		podolia_volhynia_area
+		polissia_area
+		volhynia_area
+		yedisan_area
+		west_dniepr_area
+		zhytomyr_area
+		east_dniepr_area
+		cherkasy_area
+		chernigov_area
+		pripyat_area
+		sloboda_ukraine_area
+		kharkiv_area
+		bukovyna_area
+		galitsiya_area
+		red_ruthenia_area
+	}
+}
+
+# 1.12 - Pontic Steppe
+crimea_region = {
+	areas = {
+		# UKRAINE
+		donetsk_area
+		luhansk_area
+		zaporizhia_area
+		dnipropetrovsk_area
+		kherson_area
+		crimea_area
+		tauride_area
+		kirovohrad_area
+		mykolaiv_area
+		odessa_area
+
+		# RUSSIA
+		azov_area
+		krasnodar_area
+		stavropol_area
+		kalmykia_area
+		lower_don_area
+		dagestan_area
+		rostovoblast_area
+		volgograd_area
+		kamyshin_area
+		yershov_area
+		saratov_area
+	}
+}
+
+# 1.13 - Northwestern Russia
+severozapadny = {
+	areas = {
+		# NOVGOROD
+		murmansky_area
+		kolapeninsula_area
+		whitekarelia_area
+		segezha_area
+		petrozavodsk_area
+		onezhsky_area
+		volkhovsky_area
+		eastingria_area
+		ladozhsky_area
+		novgorod_area
+		pskov_area
+		pudozhsky_area
+		beloozero_area
+		borovichi_area
+		kholm_area
+		valdaiskaya_area
+		vologda_area
+		bereznichnaya_area
+		arkhangelsk_area
+		koryazhma_area
+		westnenets_area
+		eastnenets_area
+		zapolyarny_area
+	}
+}
+
+# 1.14 - Central Russia
+russia_region = {
+	areas = {
+		# RUSSIA
+		tver_area
+		yaroslavl_area
+		moscow_area
+		vyazma_area
+		smolensk_area
+		bryansk_area
+		oka_area
+		tula_area
+		ryazan_area
+		suzdal_area
+		vladimir_area
+		ivanovo_area
+		kostroma_area
+		nizhnynovgorod_area
+		kirov_area
+		oryol_area
+		kursk_area
+		belgorod_area
+		voronezh_area
+		lipetsk_area
+		tambov_area
+		balashov_area
+		penza_area
+		saransk_area
+		ulyanovsk_area
+		chuvash_area
+		pomor_area
+	}
+}
+
+# 1.15 - Ural
+ural_region = {
+	areas = {
+		kama_area
+		ural_area
+		syktyvkar_area
+		pechora_area
+		perm_area
+		kazan_area
+		tolyatti_area
+		samara_area
+		tatarstan_area
+		bashkiria_area
+		volga_area
+		chelyabinsk_area
+		beloretsky_area
+		yekaterinburg_area
+
+		orenburg_area
+		galich_area
+	}
+}
+
+# 1.16 - Balkan Mountains
+balkan_region = {
+	areas = {
+		# SLOVENIA
+		carniola_area
+		slovenia_area
+
+		# CROATIA
+		slavonia_area
+		croatia_area
+		istria_area
+		kvarner_area
+		dalmatia_area
+		lika_area
+
+		# BOSNIA
+		krajina_area
+		bosnia_area
+		posavina_area
+
+		# ALBANIA / OTHERS
+		albania_area
+		sth_albania_area
+		tirana_area
+		montenegro_area
+		kosovo_area
+
+		# GREECE & MACEDONIA
+		pelagonia_area
+		skopje_area
+		northern_greece_area
+		macedonia_area
+		epirus_area
+		east_macedonia_area
+		thrace_area
+		thessaly_area
+		aetolia_area
+		attica_area
+		euboea_area
+		naxos_area
+		achaea_area
+		morea_area
+		crete_area
+		north_aegean_area
+		south_aegean_area
+		ionian_area
+		constantinople_area
+		cyprus_area
+
+		# BULGARIA
+		bulgaria_area
+		khaskovo_area
+		plovdiv_area
+		sofiya_area
+
+		# SERBIA
+		serbian_nis_area
+		serbia_area
+		rascia_area
+		uzice_area
+		belgrade_area
+
+		# OBSOLETE
+		east_adriatic_coast_area
+	}
+}
+
+# 1.17 - Carpathia
+carpathia_region = {
+	areas = {
+		# BULGARIA
+		varna_area
+		lovech_area
+		montana_area
+
+		# SERBIA
+		vojvodina_area
+
+		# HUNGARY
+		transdanubia_area
+		west_transdanubia_area
+		budapest_area
+		alfold_area
+		northern_greatplain_area
+		northernhungary_area
+
+		# ROMANIA
+		maramures_area
+		banat_area
+		transylvania_area
+		southern_transylvania_area
+		carpathianmts_area
+		oltenia_area
+		wallachia_area
+		muntenia_area
+		dobruja_area
+		moldavia_area
+		southmoldavia_area
+		eastmoldavia_area
+		transnistria_area
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+########################################
+# 2 ASIA                          
+########################################
+
+# 2.1 - Caucasia
+caucasia_region = {
+	areas = {
+		# RUSSIA
+		shapsug_area
+		circassia_area
+		kabardino_balkaria_area
+		ingushetia_area
+		chechnya_area
+		southdagestan_area
+		abkhazia_area
+
+		# GEORGIA
+		imereti_area
+		samtskhe_area
+		kartli_kakheti_area
+		kartli_area
+
+		# ARMENIA
+		armenia_area
+		stharmenia_area
+
+		# AZERBAIJAN
+		shirvan_area
+		baku_area
+		karabakh_area
+		ganja_area
+	}
+}
+
+# 2.2 - Anatolia
+anatolia_region = {
+	areas = {
+		# TURKEY
+		erzurum_area
+		trebizond_area
+		kars_area
+		agri_area
+		mus_area
+		van_area
+		bingol_area
+		mardin_area
+		sanliurfa_area
+		hatay_area
+		malatya_area
+		bozok_area
+		sivas_area
+		yozgat_area
+		kayseri_area
+		cankiri_area
+		kastamonu_area
+		sinop_area
+		giresun_area
+		ankara_area
+		cukurova_area
+		karaman_area
+		antalya_area
+		isparta_area
+		mugla_area
+		aydin_area
+		germiyan_area
+		manisa_area
+		hudavendigar_area
+		canakkale_area
+		eskesehir_area
+		bolu_area
+		sakarya_area
+
+		# OBSOLETE
+		rum_area
+		aegean_archipelago_area
+		dulkadir_area
+	}
+}
+
+# 2.3 - Levant
+mashriq_region = {
+	areas = {
+		# SYRIA
+		aleppo_area
+		syria_area
+		emesus_area
+		damascus_area
+		raqqa_area
+		syrian_desert_area
+		al_jazira_area
+
+		# LEBANON
+		phoenicia_area
+
+		# JORDAN
+		trans_jordan_area
+		maan_area
+
+		# ISRAEL
+		northisrael_area
+		palestine_area
+		arava_area
+
+		# EGYPT
+		northsinai_area
+		southsinai_area
+	}
+}
+
+# 2.4 - Mesopotamia
+mesopotamian_region = {
+	areas = {
+		# IRAQ
+		north_kurdistan_area
+		shahrizor_area
+		nineveh_area
+		iraq_arabi_area
+		assyria_area
+		hijarah_area
+		basra_area
+		wasit_area
+
+		# IRAN
+		khuzestan_area
+		luristan_area
+	}
+}
+
+# 2.5 - Arabia
+arabia_region = {
+	areas = {
+		# SAUDI
+		tabuk_area
+		nafud_area
+		qasim_area
+		alahsa_area
+		bahrain_area
+		addahna_area
+		hajr_area
+		hejaz_tu_area
+		hail_area
+		najd_tu_area
+		medina_area
+		mecca_area
+		rakbahplain_area
+		asir_area
+		yamamah_area
+		easternasir_area
+		ashsharqiyah_area
+		jizan_area
+
+		# YEMEN
+		tihama_al_yemen_area
+		upper_yemen_area
+		yemen_area
+		aden_area
+		mahra_area
+		hadramut_area
+
+		# OMAN
+		dhofar_area
+		alwusta_area
+		oman_area
+		mascat_area
+		albatinah_area
+
+		# QATAR
+		qatar_area
+
+		# UAE
+		abudhabi_area
+		rasalkhaimah_area
+
+		# OBSOLETE
+		pirate_coast_area
+	}
+}
+
+# 2.6 - Persia
+persia_region = {
+	areas = {
+		# IRAN
+		azerbaijan_area
+		east_azerbaijan_area
+		ardabil_area
+		mazandaran_area
+		gilan_area
+		zanjan_area
+		east_kurdistan_area
+		hamadan_area
+		elburz_mts_area
+		semnan_area
+		qom_area
+		isfahan_area
+		yazd_area
+		zagrosmts_area
+		chaharmahal_area
+		farsistan_area
+		kohgiluyeh_area
+		bushehr_area
+		hormozgan_area
+		baluchestan_area
+		sistan_area
+		kerman_area
+		sth_kerman_area
+		khur_area
+
+		# OBSOLETE
+		mogostan_area
+		persian_gulf_coast
+		tabarestan_area
+		tabriz_area
+		iraq_e_ajam_area
+	}
+}
+
+# 2.7 - Khorasan
+khorasan_region = {
+	areas = {
+		# IRAN
+		birjand_area
+		mashhad_area
+		kashmar_area
+		golestan_area
+
+		# AFGHANISTAN
+		herat_area
+		ghor_area
+		kabulistan_area
+		balkh_area
+		baghlan_area
+		badakhshan_area
+		kandahar_area
+		zaranj_area
+
+		# TURKMENISTAN
+		merv_area
+		amul_area
+		dashoguz_area
+		northparthia_area
+		garabogazgol_area
+
+		# UZBEKISTAN
+		karakalpakstan_area
+		karmana_area
+		bukharia_area
+		termez_area
+		ferghana_area
+		ustyurt_area
+
+		# TAJIKISTAN
+		east_tajikistan_area
+		west_tajikistan_area
+
+		# OBSOLETE
+		kalat_area
+		transoxiana_area
+		transcaspia_area
+		khiva_area
+		kyzylkum_area
+	}
+}
+
+# 2.8 - Central Asia
+central_asia_region = {
+	areas = {
+		# KAZAKHSTAN
+		arys_area
+		syr_darya_area
+		aralarea_area
+		mangystau_area
+		atyrau_area
+		astrakhan_area
+		kazakhstan_area
+		oral_area
+		ilekriver_area
+		shalkar_area
+		turgayvalley_area
+		kostanay_area
+		east_turgay_area
+		ulytau_area
+		balchasj_area
+		karaganda_area
+		akmola_area
+		upperishim_area
+		north_kaz_area
+		azhbulat_area
+		east_kazakhstan_area
+		zaysan_area
+		alakol_area
+		zhambyl_area
+		almaty_area
+		shu_area
+
+		# KYRGYZSTAN
+		jetysuu_area
+		kyrgyzstan_area
+
+		# RUSSIA
+		lower_altai_area
+
+		# OBSOLETE
+		lower_yik_area
+		nogai_area
+		kashgaria_area
+		tarim_basin_area
+		shanshan_area
+	}
+}
+
+# 2.9 - West Siberia
+west_siberia_region = {
+	areas = {
+		ishim_area
+		tyumen_area
+		kurgan_area
+		tabory_area
+		east_urals_area
+		yugorsk_area
+		khanty_area
+		berezovo_area
+		kazym_area
+		surgut_area
+		vartovsk_area
+		ob_area
+		tomsk_area
+		omsk_area
+		tevriz_area
+		kargat_area
+		novosibirsk_area
+
+		# OBSOLETE
+		yrtesh_area
+	}
+}
+
+# 2.10 - Yamalia
+yamalia_region = {
+	areas = {
+		shuryshkar_area
+		kara_area
+		nadymsky_area
+		taymyr_area
+		purovsk_area
+		tunguska_area
+	}
+}
+
+# 2.11 - Central Siberian Plateau
+central_siberia_region = {
+	areas = {
+		kemerovo_area
+		tashtagol_area
+		khakassia_area
+		karatuz_area
+		sayan_mts_area
+		yenisey_area
+		evenki_area
+		bratsk_area
+		irkutsk_area
+		ustkut_area
+		katang_area
+		mamsko_chuy_area
+		bodaybin_area
+		mirnin_area
+		lenariver_area
+		olekmin_area
+		yakutia_area
+
+
+
+
+		# OBSOLETE
+		central_siberia_area
+	}
+}
+
+# 2.12 - East Siberia
+far_east_region = {
+	areas = {
+		# RUSSIA
+		verkhoyan_area
+		kolyma_area
+		momsk_area
+		magadan_area
+		even_two_area
+		okhotsk_area
+		tattin_area
+		anadyr_highlands_area
+		chukotka_mts_area
+		anadyrsky_liman_area
+		penzhin_area
+		kamchatka_area
+		okhotsky_kamchatka_area
+		ayano_may_area
+
+
+		# OBSOLETE
+		sakha_area
+	}
+}
+
+# 2.13 - Mongolia
+mongolia_region = {
+	areas = {
+		# RUSSIA
+		altai_mts_area
+		kyzyl_area
+		buryatia_area
+		baikal_mts_area
+		kalar_area
+		burkal_area
+		barun_khemchik_area
+
+		# MONGOLIA
+		mongol_altai_area
+		west_gobi_area
+		zavkhan_area
+		khovsgol_area
+		ulan_ude_area
+		arkhangai_area
+		bulgan_orkhon_area
+		ulaanbaatar_area
+		omnogovi_area
+		khentii_area
+		dornod_area
+
+		# CHINA
+		zungaria_area
+		north_zungaria
+		outer_mongolia_area
+		ordos_area
+		chifeng_area
+
+		# OBSOLETE
+		inner_mongolia_area
+		altai_sayan_area
+		eastern_mongolia
+		central_mongolia_area
+		uliastai_area
+		turpan_kumul_area
+		tannu_uriankhai_area
+	}
+}
+
+# 2.14 - Manchuria
+manchuria_region = {
+	areas = {
+		# RUSSIA
+		terney_area
+		khanka_area
+		tuguro_chumikan_area
+		amur_river_area
+		zeya_area
+		mazan_area
+		dzhugdzhur_mts_area
+		birobidzhan_area
+
+		# CHINA
+		jilin_area
+		central_jilin_area
+		heilongjiang_area
+		east_heilongjiang_area
+		liaoning_area
+		north_liaoning_area
+		west_jilin_area
+
+		# OBSOLETE
+		ilan_hala_area
+		central_heilongjiang_area
+		ningguta_area
+	}
+}
+
+# 2.15 - Korea
+korea_region = {
+	areas = {
+		# NORTH KOREA
+		pyongan_area
+		hamgyeong_area
+		chongjin_area
+		kusong_area
+		hwanghae_area
+
+		# SOUTH KOREA
+		gangwon_area
+		gyeongbuk_area
+		gyeongnam_area
+		jeonnam_area
+		chungnam_area
+		gyeonggi_area
+
+		# OBSOLETE
+		western_korea_area
+		eastern_korea_area
+		south_korea_area
+	}
+	monsoon = {
+		00.06.01
+		00.07.30
+	}
+}
+
+# 2.16 - Japan
+japan_region = {
+	areas = {
+		# JAPAN
+		ogasawara_area
+		kuril_islands_area
+		hokkaido_area
+		northhokkaido_area
+		southhokkaido_area
+		northern_kyushu
+		kyushu_area
+		eastkyushu_area
+		hokuriku_area
+		kanto_area
+		eastern_kanto_area
+		chubu_area
+		eastern_chubu_area
+		shikoku_area
+		nth_shikoku_area
+		kinai_area
+		thohoku_area
+		sanindo_area
+		saigoku_area
+		chugoku_area
+		akita_area
+		niigata_area
+		miyagi_area
+		ryuku_isl_area
+
+		# RUSSIA
+		sakhalin_area
+	}
+	monsoon = {
+		00.06.01
+		00.07.30
+	}
+}
+
+
+
+# 2.17 - North China
+north_china_region = {
+	areas = {
+		# CHINA
+		beijing_area
+		hebei_area
+		shandong_area
+		inner_shandong_area
+		zhengzhou_area
+		xinyang_area
+		yancheng_area
+		changzhou_area
+		suzhou_area
+		hefei_area
+		shanghai_area
+		wenzhou_area
+		north_shanxi_area
+		south_shanxi_area
+		xian_area
+		ningxia_area
+		gansu_area
+		west_gansu_area
+		west_hubei_area
+		east_hubei_area
+
+		# OBSOLETE
+		south_hebei_area
+		henan_area
+		north_henan_area
+		jiangsu_area
+		shaanxi_area
+		shanxi_area
+		anhui_area
+	}
+}
+
+
+# 2.18 - South China
+south_china_region = {
+	areas = {
+		# CHINA
+		fuzhou_area
+		xiamen_area
+		taiwan_area
+		north_jiangxi_area
+		south_jiangxi_area
+		changsha_area
+		hunan_area
+		east_guangdong_area
+		west_guangdong_area
+		hainan_area
+		nanning_area
+		guilin_area
+
+		# OBSOLETE
+		guangdong_area
+		fujian_area
+		jiangxi_area
+		huguang_area
+		zhejiang_area
+		south_anhui_area
+		south_jiangsu_area
+		guangxi_area
+	}
+	monsoon = {
+		00.05.01
+		00.06.30
+	}
+}
+
+# 2.19 - Xinan
+xinan_region = {
+	areas = {
+		# CHINA
+		north_guizhou_area
+		south_guizhou_area
+		chongqing_area
+		chengdu_area
+		upper_sichuan_area
+		kunming_area
+		honghe_area
+		yunnan_uplands_area
+
+		# OBSOLETE
+		sichuan_area
+		yun_gui_area
+		chuannan_area
+		yun_gui_borderland_area
+		chuanbei_area
+	}
+}
+
+# 2.20 - Tibet
+tibet_region = {
+	areas = {
+		# CHINA
+		kham_area
+		amdo_area
+		qinghai_area
+		tu_lhasa_area
+		tsang_area
+		utsang_area
+		ngari_area
+		bhutan_area
+		tian_shan_area
+		north_taklamakan_area
+		south_taklamakan_area
+	}
+}
+
+# 2.21 - Indus
+indus_region = {
+	areas = {
+		# PAKISTAN
+		east_baluchestan_area
+		kirhar_range_area
+		chagai_hills_area
+		brahui_range_area
+		suleiman_range_area
+		upper_indus_area
+		peshawar_area
+		northwest_frontier_area
+		hunza_area
+		kashmir_area
+		sind_sagar_area
+		jammu_area
+		lahore_area
+		multan_area
+		indus_confluence_area
+		sindh_area
+		northern_sindh_area
+		karachi_area
+		rannofkutch_area
+		chotiari_area
+		sutlejriver_area
+
+		# OBSOLETE
+		makran_area
+		sirhind_area
+		katehar_area
+	}
+	monsoon = {
+		00.07.01
+		00.08.30
+	}
+}
+
+# 2.22 - Hindustan
+hindusthan_region = {
+	areas = {
+		# INDIA
+		oudh_area
+		purvanchal_area
+		bihar_area
+		mithila_area
+		dhanbad_area
+		bundelkhand_area
+		himachalpradesh_area
+		amritsar_area
+		punjab_area
+		chandigarh_area
+		haryana_area
+		delhi_area
+		upper_uttarakhand_area
+		lower_uttarakhand_area
+		sikkim_area
+		aurangabad_area
+		jaunpur_area
+		north_chhattisgarh_area
+		south_chhattisgarh_area
+		uttar_pradesh_area
+		gwalior_area
+
+		# NEPAL
+		mahalangur_area
+		chitwan_area
+		kankri_area
+
+		# OBSOLETE
+		nepal_area
+		himalayan_hills_area
+		lower_doab_area
+		upper_doab_area
+		baghelkhand_area
+		gird_area
+		baisi_rajya_area
+	}
+	monsoon = {
+		00.07.01
+		00.08.30
+	}
+}
+
+# 2.23 - Bengal
+bengal_region = {
+	areas = {
+		# INDIA
+		naga_hills_area
+		tripura_area
+		jharkhand_area
+		gaur_area
+		orissa_area
+		garjat_area
+		west_bengal_area
+		kolkata_area
+		ganges_delta_area
+		bangladesh_area
+		meghalaya_area
+		manipur_area
+		arunachal_pradesh_area
+
+
+		# OBSOLETE
+		east_bengal_area
+		north_bengal_area
+		upper_mahanadi_area
+
+
+
+
+		assam_area
+	}
+	monsoon = {
+		00.07.01
+		00.08.30
+	}
+}
+
+# 2.24 - West india
+west_india_region = {
+	areas = {
+		marwar_area
+		mewar_area
+		jaipur_area
+		malwa_area
+		saurashtra_area
+		tapti_area
+		khandesh_area
+		ahmedabad_area
+		south_ahmedabad_area
+		bhavnagar_area
+		sikar_area
+		chhindwara_area
+		madya_pradesh_area
+		palpur_area
+		chittorgarh_area
+
+		# OBSOLETE
+		patan_area
+		jangladesh_area
+	}
+	monsoon = {
+		00.07.01
+		00.08.30
+	}
+}
+
+# 2.25 - Deccan
+deccan_region = {
+	areas = {
+		gondwana_area
+		telingana_area
+		mysore_area
+		kanara_area
+		konkan_area
+		malabar_area
+		golconda_area
+		berar_area
+		ahmednagar_area
+		west_maharashtra_area
+		east_maharashtra_area
+		hubli_area
+		indravati_area
+		nagpur_area
+
+		# OBSOLETE
+		maidan_area
+		desh_area
+		raichur_doab_area
+	}
+	monsoon = {
+		00.06.01
+		00.09.30
+	}
+}
+
+# 2.26 - Coromandel
+coromandel_region = {
+	areas = {
+		andhra_area
+		madura_area
+		lanka_area
+		south_lanka_area
+		tanjore_area
+		kongu_area
+		south_carnatic_area
+		north_carnatic_area
+		vellore_area
+		east_lanka_area
+		rayalaseema_area
+		odisha_area
+		visakhapatnam_area
+	}
+	monsoon = {
+		00.06.01
+		00.09.30
+	}
+}
+
+# 2.27 - Burma
+burma_region = {
+	areas = {
+		kachin_area
+		upper_burma_area
+		shan_hill_area
+		karenni_area
+		arakan_area
+		central_burma_area
+		chindwin_area
+		north_sagain_area
+		south_sagain_area
+		rakhaing_area
+		bago_area
+		yangon_area
+		kayin_area
+		taninthary_area
+
+		# OBSOLETE
+		lower_burma_area
+	}
+	monsoon = {
+		00.06.01
+		00.09.30
+	}
+}
+
+# 2.28 - Indo-China
+indo_china_region = {
+	areas = {
+		# VIETNAM
+		champa_area
+		thua_thien_hua_area
+		ha_noi_area
+		hoa_binh_area
+		phan_thiet_area
+		mekong_area
+
+		# LAOS
+		north_laos_area
+		central_laos_area
+		south_laos_area
+
+		# CAMBODIA
+		kratie_area
+		angkor_area
+		phnom_penh_area
+
+		# THAILAND
+		khorat_area
+		pletchabun_range_area
+		ping_river_area
+		tanen_area
+		bilaukta_ranges_area
+		rayong_area
+
+		# OBSOLETE
+		vietnam_area
+		central_thai_area
+		northern_thai_area
+		cambodia_area
+		red_river_delta_area
+	}
+	monsoon = {
+		00.05.01
+		00.08.30
+	}
+}
+
+# 2.29 - Malaya
+malaya_region = {
+	areas = {
+		# ISLANDS
+		andamans_area
+
+		# THAILANS
+		north_tenasserim_area
+		tenasserim_area
+
+		# MALAYSIA
+		penang_area
+		perak_area
+		taman_negara_area
+		terengganu_area
+		pahang_area
+		malacca_area
+		johor_area
+
+		# SUMATRAN INDONESIA
+		aceh_area
+		sumatran_islands_area
+		north_sumatra_area
+		riau_area
+		barisan_mts_area
+		west_sumatra_area
+		jambi_area
+		south_sumatra_area
+		lampung_area
+		bangka_area
+
+		# OBSOLETE
+		central_sumatra_area
+		indian_ocean_islands_area
+		malaya_area
+		batak_area
+		minangkabau_area
+	}
+	monsoon = {
+		00.10.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.03.30
+	}
+}
+
+# 2.30 - Indonesia
+indonesia_region = { 
+	areas = {
+		# BORNEO
+		brunei_area
+		sabah_area
+		nth_kalimantan_area
+		east_kalimantan_area
+		sth_kalimantan_area
+		ctl_kalimantan_area
+		west_kalimantan_area
+		sarawak_area
+
+		# JAVA
+		banten_area
+		west_java_area
+		central_java_area
+		yogyakarta_area
+		surabaya_area
+		east_java_area
+
+		# OTHER ISLANDS
+		bali_area
+		west_nusa_area
+		east_nusa_area
+		sumba_area
+		lesser_sunda_islands_area
+		indonesian_islands_area
+		west_timor_area
+		east_timor_area
+
+		# OBSOLETE
+		kalimantan_area
+		kutai_area
+		timor_area
+	}
+	monsoon = {
+		00.11.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.03.30
+	}
+}
+
+
+# 2.31 - Moluccas
+moluccas_region = {
+	areas = {
+		# SULAWESI
+		south_sulawesi_area
+		southeast_sulawesi_area
+		central_sulawesi_area
+		west_sulawesi_area
+		gorontalo_area
+
+		# PHILIPPINES
+		west_mindanao_area
+		east_mindanao_area
+		sulu_islands_area
+		west_visayas_area
+		east_visayas_area
+		palawan_area
+		bicol_area
+		mindoro_area
+		southern_luzon_area
+		luzon_area
+
+		# MOLUCCAS
+		halmahera_area
+		tidore_area
+		ceram_area
+		cocos_islands_area
+
+		# OBSOLETE
+		sulawesi_area
+		mindanao_area
+		visayas_area
+		molluca_area
+		spice_islands_area
+	}
+	monsoon = {
+		00.10.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.03.30
+	}
+}
+
+
+
+# OCEANIA
+
+# 3.1 - Melanesia
+oceanea_region = { # Renamed "Melanesia"
+	areas = {
+		# PAPUA
+		sorong_area
+		west_jaya_area
+		papua_area
+		puncak_jaya_area
+		jayapura_area
+		aru_and_kai_area
+		merauke_area
+		balimo_area
+		papuan_highlands_area
+		sepik_area
+		madang_area
+		papuan_gulf_area
+		oro_papua_area
+		kimbe_papua_area
+		labur_area
+		north_solomon_area
+		south_solomon_area
+		vanuatu_area
+		new_caledonia_area
+
+		# OBSOLETE
+		vogelkop_area
+		polynesia_area
+		west_micronesia_area
+		melanesia_area
+		northern_polynesia_area
+		eastern_polynesia_area
+	}
+	monsoon = {
+		00.07.01
+		00.10.30
+	}
+}
+
+# 3.2 - Australasia
+australia_region = { # Renamed "Australasia"
+	areas = {
+		# AUSTRALIA
+		kimberley_area
+		pilbara_area
+		karratha_area
+		gascoyne_area
+		western_desert_area
+		midwest_aus_area
+		wheatbelt_area
+		great_southern_area
+		goldfields_area
+		south_victorian_area
+		darwin_area
+		east_arnhem_area
+		barkly_tableland_area
+		uluru_area
+		giles_area
+		stuart_aus_area
+		flinders_area
+		whyalla_area
+		frome_area
+		adelaide_area
+		chaffey_area
+		north_tasmania_area
+		south_tasmania_area
+		mallee_country_area
+		grampians_area
+		waranga_basin_area
+		yarra_area
+		high_country_aus_area
+		victorian_lakes_area
+		southern_rivers_aus_area
+		murray_river_area
+		murrumbidgee_area
+		lachian_area
+		hawkesbury_area
+		hunter_aus_area
+		gwydir_area
+		namoi_area
+		white_cliffs_area
+		brisbane_area
+		darling_downs_area
+		rockhampton_area
+		fitzroy_area
+		southwest_queensland_area
+		west_queensland_area
+		mackay_area
+		northwest_queensland_area
+		cape_york_area
+
+		# OBSOLETE
+		western_australia_area
+		northern_australia_area
+		eastern_australia_area
+		southern_australia_area
+		top_end_area
+		te_ika_a_maui_area
+		te_waipounamu_area
+	}
+	monsoon = {
+		00.10.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.03.30
+	}
+}
+
+newzealand_region = { # Renamed "Australasia"
+	areas = {
+		# NEW ZEALAND
+		northland_area
+		waikato_area
+		bay_of_plenty_area
+		hawkes_bay_area
+		taranaki_area
+		manuwatu_area
+		marlborough_area
+		west_coast_nz_area
+		canterbury_area
+		otago_area
+		southland_nz_area
+	}
+}
+
+# 3.2 - Polynesia
+polynesia_region = { # 
+	areas = {
+		# PACIFIC
+		fiji_area
+		vanualevu_area
+		tonga_area
+		samoa_area
+		tuvalu_area
+		gilbert_islands_area
+		marshall_islands_area
+		palau_area
+		mariana_islands_area
+		micronesia_area
+		cook_islands_area
+		northern_cook_islands_area
+		kiribati_area
+		marquesas_islands_area
+		tahiti_area
+		tuamotu_archipelago_area
+		hawaii_area
+
+
+
+
+	}
+	monsoon = {
+		00.10.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.03.30
+	}
+}
+
+
+
+
+
+
+####################################################################################################################################################
+# 4 AFRICA                             
+####################################################################################################################################################
+
+# 4.1 - Nubia
+egypt_region = {
+	areas = {
+		# EGYPT
+		lower_nubia_area
+		marmarica_area
+		red_sea_coast_area
+		suez_area
+		gulf_of_suez_area
+		delta_area
+		bahari_area
+		vostani_area
+		said_area
+		luxor_area
+		darb_el_arbain_area
+		egypt_wasteland_area
+
+		# SUDAN
+		ash_shimaliyya_area
+		nahr_an_nil_area
+		al_khartoum_area
+		al_bahr_al_ahmar_area
+
+		# OBSOLETE
+		gulf_of_arabia_area
+	}
+}
+
+# 4.2 - Tripolitania
+tripolitania_region = {
+	areas = {
+		# LIBYA
+		al_wahat_area
+		kufra_area
+		cyrenaica_area
+		nalut_area
+		jufra_area
+		murzuq_area
+		tripolitania_area
+		barbary_coast_area
+
+		# TUNISIA
+		djerba_area
+		chott_el_djerid_area
+		tunisia_area
+		sfax_area
+		kef_area
+		libyan_wastelands_area
+	}
+}
+
+# 4.3 - Maghreb
+maghreb_region = {
+	areas = {
+		# ALGERIA
+		annaba_area
+		jijel_area
+		tebessa_area
+		msila_area
+		tissemsilt_area
+		kabylia_area
+		ouled_nail_area
+		algiers_area
+		hautes_plaines_area
+		illizi_crossing_area
+		tamanrasset_area
+		ainsalah_crossing_area
+		sali_crossing_area
+		north_saharan_area
+		tlemcen_area
+
+		# MOROCCO
+		agmod_area
+		agrakal_area
+		fez_morocco_area
+		tetouan_area
+		casablanca_area
+		safi_area
+		sus_area
+		marrekesh_area
+		atlas_highlands_area
+		tafilalt_area
+		laayoune_area
+		canary_islands_area
+		western_sahara_area
+		maghreb_wastelands_area
+
+		# MAURITANIA
+		mauritanian_desert_area
+		araouane_area
+		inchiri_area
+		tagant_area
+		assaba_area
+
+		# OBSOLETE
+		macaronesia_area
+		northern_morocco_area
+		southern_morocco_area
+		western_morocco_area
+		fezzan_area
+		#fez_area
+
+	}
+}
+
+# 4.4 - Guinea
+guinea_region = {
+	areas = {
+		# ISLANDS
+		cap_verde_area
+		south_atlantic_islands_area
+
+		# SENEGAL / GAMBIA
+		waalo_area
+		kayor_area
+		saloum_area
+		jolof_area
+		gambia_area
+		kolda_area
+
+		# GUINEA / SIERRA / LIBERIA
+		bissau_area
+		maritime_guinea_area
+		mid_guinea_area
+		mamou_area
+		kankan_area
+		nzerekore_area
+		moa_river_area
+		sierra_leone_area
+		loffa_river_area
+		liberia_area
+
+		# OBSOLETE
+		benin_area
+		guinea_coast_area
+		gulf_of_guinea_area
+		futa_jallon_area
+		west_africa_coast_area
+	}
+	monsoon = {
+		00.06.01
+		00.09.30
+	}
+}
+
+# 4.5 - Ivory Coast
+ivory_coast_region = {
+	areas = {
+		# IVORY COAST
+		bas_sassandra_area
+		montagnes_area
+		goh_djiboua_area
+		lagunes_area
+		zanzan_area
+		woroba_area
+
+		# GHANA
+		lower_volta_area
+		upper_volta_area
+		west_ghana_area
+		ashanti_area
+		northern_ghana_area
+
+		# TOGO
+		togo_area
+
+		# BENIN
+		south_benin_area
+		atakora_area
+	}
+	monsoon = {
+		00.06.01
+		00.09.30
+	}
+}
+
+# 4.6 - Sahel
+sahel_region = {
+	areas = {
+		# MALI & MAURITANIA
+		walatah_area
+		kayes_area
+		diema_area
+		nara_area
+		yanfolila_area
+		sikasso_area
+		jenne_area
+		youvaron_area
+		niger_bend_area
+		kidal_area
+
+		# BURKINA FASO
+		black_volta_area
+		volta_delta_area
+		dedougou_area
+		liptako_area
+		gurma_area
+
+		# NIGER
+		niamey_area
+		dosso_area
+		ader_area
+		gobir_area
+		daura_area
+		agadem_crossing_area
+		bilma_crossing_area
+		azbin_area
+
+		# CHAD
+		kanem_area
+		bornu_area
+		tibesti_area
+		ennedi_area
+		batha_area
+		ouaddai_area
+		salamat_area
+		moyenchari_area
+		tandjile_area
+
+		# SUDAN
+		darfur_central_sahara_area
+		kurdufan_area
+		gharb_kurdufan_area
+		shimal_kurdufan_area
+		sahel_wastelands_area
+
+		# OBSOLETE
+		dendi_area
+		baghena_area
+		east_azbin_area
+	}
+	monsoon = {
+		00.06.01
+		00.09.30
+	}
+}
+
+# 4.7 - Niger
+niger_region = {
+	areas = {
+		# NIGERIA
+		sao_tome_area
+		lower_niger_area
+		hausa_area
+		katsina_area
+		zazzau_area
+		upper_niger_area
+		abuje_area
+		nasawara_area
+		kwara_area
+		oyo_area
+		ogun_area
+		ondo_area
+		edo_area
+		kogi_area
+		akwa_area
+		anambra_area
+		taraba_area
+		north_adamawa_area
+		bauchi_area
+		gombe_area
+		yobe_area
+		borno_area
+
+		# CAMEROON
+		adamawa_plateau_area
+		logono_chari_area
+		vaimba_area
+		west_gbaya_area
+		eastern_bantu_area
+		yaounde_area
+		mbam_area
+		oroko_area
+		nkambe_area
+		equatorial_guinea_area
+
+		# OBSOLETE
+		atacora_oueme_area
+		kong_area
+		massina_area
+		manding_area
+		tekrur_area
+
+	}
+	monsoon = {
+		00.06.01
+		00.09.30
+	}
+}
+
+# 4.8 - Ethiopia
+ethiopia_region = {
+	areas = {
+		# SUDAN
+		kassala_area
+		blue_nile_area
+		white_nile_area
+
+		# ERITREA
+		damot_area
+		aussa_area
+		gashbarka_area
+		djibouti_area
+
+		# ETHIOPIA
+		tigray_area
+		hadiya_area
+		shewa_area
+		west_amhara_area
+		central_amhara_area
+		south_amhara_area
+		east_amhara_area
+		benishangul_area
+		wellega_area
+		gambela_area
+		machi_area
+		south_oromia_area
+		bale_area
+		arsi_area
+		afder_area
+		afar_area
+		dire_dawa_area
+
+		# OBSOLETE
+		southern_ethiopia_area
+		central_ethiopia_area
+		ifat_area
+		upper_nubia_area
+		sennar_area
+		dongola_area
+	}
+}
+
+# 4.9 - Horn of Africa
+horn_of_africa_region = {
+	areas = {
+		# SOMALIA
+		mogadishu_area
+		ajuuran_area
+		somaliland_area
+		majarteen_area
+		woqooyi_area
+		toghdeer_area
+		nugaal_area
+		mudug_area
+		jubbada_area
+
+		# ETHIOPIA
+		ogaden_area
+
+		# KENYA
+		wajir_area
+		lamu_area
+	}
+}
+
+# 4.10 - East Africa
+east_africa_region = {
+	areas = {
+		# KENYA
+		mombasa_area
+		nairobi_area
+		nyanza_area
+		north_rift_valley_area
+		eastern_kenya_area
+		turkana_area
+
+		# UGANDA
+		eastern_uganda_area
+		northern_uganda_area
+		buganda_area
+		southern_uganda_area
+		western_uganda_area
+		rwanda_area
+		burundi_area
+
+		# TANZANIA
+		ruvuma_area
+		ngonde_area
+		kagera_area
+		mara_area
+		arusha_area
+		pwani_area
+		lindi_area
+		morogoro_area
+		iringa_area
+		dodoma_area
+		shinyanga_area
+		kigoma_area
+		tabora_area
+
+		# MOZAMBIQUE
+		rovuma_area
+		maniamba_area
+		lurio_area
+
+
+		# OBSOLETE
+		northern_swahili_coast_area
+		central_swahili_coast_area
+		mozambique_area
+		uticulo_makuana_area
+		jubba_area
+		shire_area
+
+	}
+	monsoon = {
+		00.11.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.04.30
+	}
+}
+
+# 4.11 - Central Africa
+central_africa_region = {
+	areas = {
+		# CENTRAL AFRICAN REPUBLIC
+		mambere_kadei_area
+		ombella_mpoko_area
+		ouham_area
+		bangoran_area
+		ouaka_area
+		mbomou_area
+		kotto_area
+
+		# SOUTH SUDAN
+		bahr_el_ghazar_area
+		western_equatoria_area
+		eastern_equatoria_area
+		sudan_lakes_area
+		jonglei_area
+		warrap_area
+
+		# DRC
+		ubangi_area
+		mongala_area
+		lower_uele_area
+		upper_uele_area
+		ituri_area
+		east_tshopo_area
+		central_african_wastelands_area
+
+		# OBSOLETE
+		buha_area
+	}
+	monsoon = {
+		00.10.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.04.30
+	}
+}
+
+# 4.12 - Kongo
+kongo_region = {
+	areas = {
+		# DRC
+		coastal_kongo
+		kongo_area
+		matamba_area
+		lower_kasai
+		kasai_area
+		katanga_area
+		bandudu_area
+		lunda_area
+		salong_area
+		south_mitumba_area
+		north_mitumba_area
+		kivu_area
+		west_katanga_area
+		sankuru_area
+		upper_congo_area
+		maniema_area
+		west_tshopo_area
+		tshuapa_area
+		mbandaka_area
+		south_tshopo_area
+		kwilu_area
+
+		# GABON
+		woleu_ntem_area
+		maritime_gabon_area
+		moyen_ogooue_area
+		ngounie_area
+		bouenza_area
+		cuvette_area
+		sangha_area
+		lolo_area
+
+		# ZAMBIA
+		tanganyika_area
+		bangweulu_area
+
+		# OBSOLETE
+		angola_namibia_area
+	}
+	monsoon = {
+		00.02.01
+		00.04.30
+	}
+}
+
+# 4.13 - Bie Plateau
+bie_plateau_region = {
+	areas = {
+		# ANGOLA
+		zaire_area
+		bengo_area
+		malanje_area
+		angolan_lunda_area
+		moxico_area
+		cubango_area
+		bie_area
+		benguela_area
+		huila_area
+		namibe_area
+
+		# NAMIBIA
+		caprivi_area
+		kavango_area
+		ngamiland_area
+		upper_zambezi_area
+		etosha_area
+		kabompo_area
+		zambia_area
+		namwala_area
+		lusaka_area
+	}
+	monsoon = {
+		00.02.01
+		00.04.30
+	}
+}
+
+# 4.14 - Kalahari
+kalahari_region = {
+	areas = {
+		# NAMIBIA
+		kunene_area
+		erongo_area
+		khomas_area
+		karas_area
+
+		# BOTSWANA
+		ghanzi_area
+		kgatleng_area
+
+		# SOUTH AFRICA
+		modiri_area
+		siyanda_area
+		springbok_area
+		namakwa_area
+		kalahari_wastelands_area
+
+	}
+	monsoon = {
+		00.02.01
+		00.04.30
+	}
+}
+
+# 4.15 - Muchinga
+muchinga_region = {
+	areas = {
+		# MOZAMBIQUE
+		lower_zambezi_area
+		chokwe_area
+		nampula_area
+		mid_zambezi_area
+		manica_area
+		inhambane_area
+
+		# MALAWI
+		north_malawi_area
+		south_malawi_area
+
+		# ZAMBIA
+		luangwa_area
+
+		# ZIMBABWE
+		mashonaland_area
+		matabeleland_area
+		masvingo_area
+		zimbabwe_area
+		north_limpopo_area
+		makgadikgadi_area
+		mokopane_area
+
+		# OBSOLETE
+		kenya_area
+		uganda_area
+		luba_area
+		tanzania_area
+		buzinza_area
+		bunyoro_area
+	}
+	monsoon = {
+		00.02.01
+		00.04.30
+	}
+}
+
+# 4.16 - Indian Ocean Islands
+indian_ocean_islands_region = {
+	areas = {
+		# MADAGASCAR
+		mascarenes_area
+		madagascar_highlands_area
+		betsimasaraka_area
+		sakalava_area
+		southern_madagascar
+		mahajanca_area
+		antsiranana_area
+		mahanoro_area
+		comoros_area
+		indian_ocean_territories_area
+		maldives_area
+
+	}
+	monsoon = {
+		00.02.01
+		00.04.30
+	}
+}
+
+# 4.17 - South Africa
+south_africa_region = {
+	areas = {
+		# SOUTH AFRICA
+		cape_of_good_hope_area
+		cape_fold_area
+		little_karoo_area
+		great_karoo_area
+		cacadu_area
+		eastern_cape_area
+		lesotho_area
+		xharlep_area
+		lejweleputswa_area
+		highveld_area
+		lowveld_area
+		bushveld_area
+		kwazulu_natal_area
+		uthukela_area
+		ugu_area
+
+
+		# OBSOLETE
+		south_african_plateau_area
+		quelimane_area
+		butua_area
+		limpopo_area
+
+
+
+	}
+	monsoon = {
+		00.11.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.04.30
+	}
+}
+
+
+####################################################################################################################################################
+# 5 NORTH AMERICA                             
+####################################################################################################################################################
+
+# 5.1 - Hudson Bay
+hudson_bay_region = {
+	areas = {
+		james_bay_area
+		hudson_bay_area
+		inner_ontario_area
+		pontchartrain_area
+		abitibi_area
+		upper_ontario_area
+		nipigon_area
+		winisk_area
+		wapusk_area
+		tadoule_area
+		nunavut_area
+		hudson_wastelands_area
+	}
+}
+
+# 5.1a - Northern Territories
+northern_territory_region = {
+	areas = {
+		# CANADA
+		north_nunavut_area
+		victoria_island_area
+		ukkusuksalik_area
+		kimmirut_area
+		baffin_area
+		inuvialuit_area
+		good_hope_crossing_area
+		old_crow_area
+
+		# ALASKA
+		aishihik_hills_area
+		kluane_ranges_area
+		alaskan_range_area
+		arctic_coast_area
+		atqasuk_area
+		yukon_river_area
+		selawik_area
+		seward_peninsula_area
+		kuskokwim_area
+		aleutian_islands_area
+		kenai_peninsula_area
+		alaskan_crossing_area
+		alaskan_coast_area
+		north_terr_wastelands_area
+	}
+}
+
+# 5.2 - Western Canada
+west_canada_region = {
+	areas = {
+		red_river_area
+		saskatchewan_area
+		prairies_area
+		athabasca_area
+		quetico_area
+		savant_lake_area
+		nanowin_area
+		grand_rapids_area
+		lake_reindeer_area
+		black_lake_area
+		riding_mountain_area
+		saskatoon_area
+		heartland_area
+		calgary_area
+		fox_creek_area
+		high_prairies_area
+		hay_river_area
+		yellowknife_area
+		nahanni_butte_area
+		west_canada_wastelands_area
+	}
+}
+
+# 5.2a - Eastern Canada
+canada_region = {
+	areas = {
+		# CANADA
+		cote_nord_area
+		quebec_area
+		montreal_area
+		saguenay_area
+		temiscamingue_area
+		ottawa_area
+		churchill_river_area
+		kiglapait_mts_area
+		ungava_bay_area
+		algonquin_area
+		toronto_area
+		huronia_area
+
+		# NEWFOUNDLAND
+		east_newfoundland_area
+		west_newfoundland_area
+
+		# AMERICA
+		upper_acadia_area
+		lower_acadia_area
+		notre_dame_mountains_area
+		nova_scotia_area
+		new_brunswick_area
+		east_canada_wastelands_area
+
+		# OBSOLETE
+		newfoundland_area
+		labrador_area
+		lower_canada_area
+		upper_canada_area
+		laurentian_area
+	}
+}
+
+# 5.3 - Cascadia
+cascadia_region = {
+	areas = {
+		oregon_area
+		columbia_river_area
+		salish_sea_area
+		hecate_strait_area
+		straits_of_georgia_area
+		alexander_archipelago_area
+		haida_narrows_area
+		broughton_archipelago_area
+		vancouver_island_area
+		vancouver_area
+		silver_lake_area
+		oregon_coast_area
+		umpqua_forest_area
+		klamath_area
+		black_rock_desert_area
+		shasta_area
+
+		# OBSOLETE
+		snake_river_area
+		interior_plateau_area
+		alaska_area
+		east_alaska_area
+	}
+}
+
+# 5.4 - California
+california_region = {
+	areas = {
+		# USA
+		mendocino_area
+		san_francisco_area
+		tehama_area
+		sierra_nevada_area
+		californian_coast_area
+		sequoia_area
+		inyo_area
+		angeles_area
+		mexicali_area
+		catalina_area
+		north_baha_area
+		central_baha_area
+		south_baha_area
+		kofa_area
+		walker_lake_area
+		central_nevada_area
+		south_nevada_area
+		hualapai_area
+		apache_area
+
+		# MEXICO
+		west_sonora_area
+		east_sonora_area
+		south_sonora_area
+		west_chihuahua_area
+		southwest_chihuahua_area
+		west_sierra_madre_area
+
+		# OBSOLETE
+		california_area
+		baja_california_area
+		arizona_area
+		colorado_plateau_area
+		new_mexico_area
+		central_valley_area
+		apacheria_area
+		northern_california_area
+		sonora_area
+	}
+}
+
+# 5.5 - Rocky Mountains
+rocky_mountains_region = {
+	areas = {
+		# CANADA
+		buckinghorse_river_area
+		watson_lake_area
+		northernmost_rockies_area
+		hazelton_area
+		babine_lake_area
+		kakwa_ranges_area
+		tweedsmuir_area
+		tsilos_area
+		shuswap_lake_area
+		invermere_area
+		purcell_area
+		kootenai_area
+		missoula_area
+		sawtooth_area
+		ennis_area
+		south_idaho_area
+		clearwater_area
+		colville_area
+		yakama_area
+		umatilla_area
+		idaho_falls_area
+		salt_lakes_area
+		shoshone_area
+		wyoming_area
+		uncompahgre_area
+		utah_area
+		fishlake_area
+		north_nevada_area
+		navajo_area
+		hopi_area
+		rockies_wastelands_area
+	}
+}
+
+# 5.6 - Great Plains
+great_plains_region = {
+	areas = {
+		# CANADA
+		assiniboia_area
+		lethbridge_area
+
+		# USA
+		blackfeet_area
+		chinook_area
+		us_montana_area
+		north_cheyenne_area
+		cheyenne_area
+		fort_berthold_area
+		north_dakota_area
+		red_lake_area
+		white_earth_area
+		dakota_area
+		lake_traverse_area
+		south_dakota_area
+		arapaho_area
+		colorado_area
+		standing_rock_area
+		pine_ridge_area
+
+
+
+
+		# OBSOLETE
+		central_plains_area
+		lower_plains_area
+		high_plains_area
+		ozarks_area
+		upper_missouri_area
+		badlands_area
+	}
+}
+
+# 5.7 - Great Lakes
+great_lakes_region = {
+	areas = {
+		hiawatha_area
+		north_chequamegon_area
+		south_chequamegon_area
+		green_bay_area
+		wisconsin_area
+		milwaukee_area
+		chicago_area
+		michigan_area
+		huron_manistee_area
+		grand_rapids_mich_area
+		south_michigan_area
+		erie_coast_area
+		us_toledo_area
+		ohio_country_area
+		kabetogama_forest_area
+		leech_lake_area
+		minneapolis_area
+		tomah_area
+		moraines_area
+		till_plains_area
+		indiana_lowlands_area
+		mosquito_lake_area
+		east_illinois_area
+
+
+
+
+		# OBSOLETE
+		illinois_country_area
+		miami_river_area
+		lake_superior_area 
+
+	}
+}
+
+# 5.8 - Northeast America
+northeast_america_region = {
+	areas = {
+		maine_area
+		maine_coast_area
+		portland_area
+		new_hampshire_area
+		vermont_area
+		massachusetts_bay_area
+		rhode_island_area
+		connecticut_valley_area
+		hudson_valley_area
+		great_woods_area
+		iroquoisia_area
+		south_iroquoisia_area
+		new_jersey_area
+		delaware_valley_area
+		philadelphia_area
+		tioga_forest_area
+		allegheny_forest_area
+		susquehanna_area
+
+
+
+
+
+
+
+
+
+
+		maryland_area
+	}
+}
+
+# 5.9 - Southeast America
+southeast_america_region =  {
+	areas = {
+		everglades_area
+		florida_area
+		tampa_bay_area
+		north_florida_area
+		georgian_savannah_area
+		piedmont_north_america_area
+		american_georgia_area 
+		south_carolina_area
+		carolinas_area
+		pamlico_sound_area
+		north_carolina_area
+		chesapeake_area
+		virginia_area
+		pensacola_bay_area
+
+
+
+
+		# OBSOLETE
+		great_valley_area
+		upper_american_georgia_area
+
+	}
+	monsoon = {
+		00.06.01
+		00.11.30
+	}
+}
+
+# 5.10 - Mississippi
+mississippi_region = {
+	areas = {
+		mississippi_delta_area
+		lower_louisiana_area
+		upper_louisiana_area
+		homochitto_forest_area
+		holly_springs_area
+		south_alabama_area
+		de_soto_forest_area
+		arkansas_floodplain_area
+		ouachita_forest_area
+		ozark_forest_area
+		mississippi_bend_area
+		shawnee_forest_area
+		hatchie_woods_area
+		kentucky_lake_area
+		west_wichita
+		sabine_river_area
+
+
+		west_florida_area
+		alabama_area
+		kentucky_area
+
+		south_appalachia_area
+		mississippi_area
+		choctaw_area
+		mississippi_plain_area
+	}
+	monsoon = {
+		00.06.01
+		00.11.30
+	}
+}
+
+# 5.11 - Appalachia
+appalachia_region = {
+	areas = {
+		chattahoochee_area
+		tennessee_area
+		chattanooga_area
+		nantahala_forest_area
+		uwharrie_area
+		appalachia_area
+		shenandoah_area
+		inner_maryland_area
+		monongahela_area
+		west_virginia_area
+		upper_kentucky_area
+		talladega_forest_area
+		north_alabama_area
+
+
+	}
+	monsoon = {
+		00.06.01
+		00.11.30
+	}
+}
+
+# 5.12 - Midwest
+midwest_region = {
+	areas = {
+		west_illinois_area
+		upper_mississippi_area
+		south_iowa_plains_area
+		north_iowa_plains_area
+		east_minnesota_area
+		west_minnesota_area
+		nebraska_area
+		missouri_area
+		north_ozark_area
+		smoky_hills_area
+		flint_hills_area
+		red_hills_area
+		osage_area
+		oklahoma_area
+		black_mesa_area
+		south_nebraska_area
+
+	}
+	monsoon = {
+		00.06.01
+		00.11.30
+	}
+}
+
+# 5.13 - Rio Grande
+rio_grande_region = {
+	areas = {
+		piney_woods_area
+		gulf_coast_area
+		nueces_river_area
+		pecos_area
+		chihuahua_area
+		llano_estacado_area
+		panhandle_plains_area
+		texan_lakes_area
+		texan_prairie_area
+		south_texas_plains_area
+		lower_colorado_river_area
+		texan_hills_area
+		sangre_de_christo_area
+		pecos_plains_area
+		black_range_area
+		north_coahuila_area
+		nuevo_leon_area
+
+		# OBSOLETE
+		rio_grande_area
+		northeast_mexico_area
+		texas_area
+		coastal_prarie_area
+
+
+
+	}
+	monsoon = {
+		00.06.01
+		00.11.30
+	}
+}
+
+# 5.14 - Mexico
+mexico_region = {
+	areas = {
+		sinaloa_area
+		copper_canyon_area
+		allende_valley_area
+		south_coahuila_area
+		north_durango_area
+		south_durango_area
+		zacatecas_area
+		nayarit_area
+		guadalajara_area
+		jalisco_area
+		rio_balsas_area
+		michoacan_area
+		guanajuato_area
+		san_luis_potosi_area
+		tamaulipas_area
+		hidalgo_area
+		mexico_area
+		west_guerrero_area
+		guerrero_area
+		oaxaca_area
+		tehuantepec_area
+		puebla_area
+		eastern_mexico_area
+		north_vera_cruz_area
+		south_vera_cruz_area
+
+
+
+
+
+
+		durango_area
+		gran_chichimeca_area
+		tierra_caliente_area
+
+		huasteca_area
+		mixteca_area
+
+	}
+	monsoon = {
+		00.06.01
+		00.11.30
+	}
+}
+
+# 5.16 - Central America
+central_america_region = {
+	areas = {
+		chiapas_area
+		montes_azules_area
+		tabasco_area
+		campeche_area
+		yucatan_area
+		east_yucatan_area
+		quintana_roo_area
+		belize_area
+		guatemala_lowlands_area
+		guatemala_area
+		atitlan_area
+		el_salvador_area
+		south_sierra_madre_area
+		honduras_area
+		sierra_la_esperanza_area
+		west_nicaragua_area
+		east_nicaragua_area
+		costa_rica_area
+		chiriqui_gulf_area
+		panama_area
+
+
+
+		nicaragua_area
+
+
+
+	}
+	monsoon = {
+		00.06.01
+		00.11.30
+	}
+}
+
+# 5.17 - Carribean
+carribeans_region = {
+	areas = {
+		havana_area
+		west_cuba_area
+		cuba_area
+		east_cuba_area
+		jamaica_area
+		haiti_area
+		dominica_area
+		domingo_area
+		puerto_rico_area
+		turks_and_caicos_area
+		bahamas_area
+
+
+
+		hispaniola_area
+		greater_antilles_area
+		leeward_islands_area
+		windward_islands_area
+		lucayan_area
+	}
+	monsoon = {
+		00.06.01
+		00.11.30
+	}
+}
+
+
+
+
+
+
+
+
+
+####################################################################################################################################################
+# 6 SOUTH AMERICA                             
+####################################################################################################################################################
+
+# 6.1 - Colombia
+colombia_region = {
+	areas = {
+		darien_coast_area
+		cauca_river_area
+		magdalena_river_area
+		guajira_area
+		sierra_de_perija_area
+		el_cocuy_area
+		tuparro_area
+		cano_canoas_area
+		upper_orinoco_area
+		puinawai_area
+		nukak_area
+		cahuinari_area
+		guacharos_area
+		colombian_andes_area
+		bogota_area
+		cordillera_central_area
+		cordillera_occidental_area
+		colombian_pacific_area
+
+		# VENEZUELA
+		maracaibo_area
+		merida_area
+		falcon_area
+		lara_area
+		tachirai_area
+		apure_area
+		barinas_area
+		west_bolivar_area
+		caracas_area
+		east_bolivar_area
+		cupira_area
+		nueva_esparta_area
+		trinidad_area
+
+		# OBSOLETE
+		upper_guyana_area
+		venezuela_area
+		eastern_llanos
+		western_llanos
+		coquivacoa_area
+		popayan_area
+		central_llanos_area
+		colombian_amazonas_area
+	}
+	monsoon = {
+		00.05.01
+		00.11.30
+	}
+}
+
+# 6.2 - Amazon
+guyana_region = {
+	areas = {
+		# VENEZUELA
+		monagas_area
+		canaima_area
+		amacuro_delta_area
+
+		# GUYANA & OTHERS
+		guyana_area
+		suriname_area
+		brokopondo_area
+		east_guyana_area
+
+		# BRAZIL
+		serra_do_sol_area
+		yanomami_area
+		amazon_delta_area
+		zoe_area
+		waimiri_atroari_area
+		arara_area
+		koatinemo_area
+		tenharim_marmelos_area
+		kulina_do_medio_jurua_area
+		mamoadate_area
+		pacaas_novas_area
+		manuripi_area
+		karipuna_area
+	}
+	monsoon = {
+		00.12.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.04.30
+	}
+}
+
+# 6.3 - Brazil
+brazil_region = {
+	areas = {
+		alto_rio_guama_area
+		alto_turiacu_area
+		maranhenses_area
+		rio_grande_do_norte_area
+		ceara_area
+		pernambuco_area
+		alagoas_area
+		bahia_area
+		south_bahia_area
+		salvador_area
+		espirito_santo_area
+		minas_gerais_area
+		rio_de_janeiro_area
+		sao_paolo_area
+		west_sao_paolo_area
+		parana_area
+		santa_catarina_area
+		curitiba_area
+		rio_grande_do_sol_area
+		araxa_area
+		ubera_area
+		west_bahia_area
+		goias_area
+		tocantins_area
+		piaui_area
+		araguaia_area
+		mato_grosso_area
+		sao_marcos_area
+		mato_grosso_do_sol_area
+
+		# BOLIVIA
+		east_bolivia_area
+		blanco_y_negro_area
+
+		# OBSOLETE
+		sao_francisco_area
+		maranhao_area
+		grao_para_area
+		amazon_area
+		diamantina_area
+		pontal_area
+		ofaie_area
+		amapa_area
+		guapore_area
+	}
+	monsoon = {
+		00.12.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.04.30
+	}
+}
+
+# 6.4 - Upper Peru
+upper_peru_region = {
+	areas = {
+		# PARAGUAY
+		southern_paraguay_area
+		paraguay_area
+		lindo_river_area
+		chaco_area
+
+		# BOLIVIA
+		chaco_boreal_area
+		bolivian_andes_area
+		yungas_area
+		caupolican_area
+		altiplano_area
+		nevado_sajama_area
+
+		# CHILE
+		north_atacama_area
+		cordillera_domeyko_area
+		central_chile_area
+
+		# ARGENTINA
+		flamencos_area
+		salta_area
+		chaco_plain_area
+		tucuman_area
+
+		# OBSOLETE
+		beni_area
+		upper_peru
+		northern_chile_area
+		potosi_area
+		jujuy_area
+		moxos_area
+	}
+}
+
+# 6.5 - La Plata
+la_plata_region = {
+	areas = {
+		# CHILE
+		chilean_valley_area
+		south_chilean_valley_area
+		concepcion_area
+		valdivia_area
+		ancud_gulf_area
+		patagonian_andes
+		magellan_strait_area
+
+		# URUGUAY
+		cuchilla_de_haedo_area
+		rio_negro_area
+		cuchilla_de_grande_area
+
+		# ARGENTINA
+		north_pampas_area
+		rio_salado_area
+		buenos_aires_area
+		pampas_humeda_area
+		pampa_seca_area
+		southern_pampas_area
+		san_matias_gulf_area
+		valdes_peninsula_area
+		american_cordoba_area
+		mendoza_area
+		rio_colorado_area
+		north_patagonia_area
+		patagonia_area
+		san_jorge_gulf_area
+		southern_patagonia_area
+		tierra_del_fuego_area
+		falklands_area
+
+		# OBSOLETE
+		nehuenken_area
+		cuyo_area
+		banda_oriental_area
+		southern_chile_area
+		misiones_area
+		bahia_blanca_area
+	}
+}
+
+# 6.6 - Peru
+peru_region = {
+	areas = {
+		# PERU
+		cajamarca_area	
+		ucayali_area
+		cuzco_area
+		kuntisuyu_area
+		chimor_area
+		huanuco_area
+		arequipa_area
+		ayacucho_area
+		huancayo_area
+		lima_area
+		pucacuro_area
+		tarapoto_area
+		podocarpus_area
+
+		# ECUADOR
+		quito_area
+		esmeraldas_area
+		quevedo_area
+		american_cuenca_area
+		yasuni_area
+
+		# OBSOLETE
+		antisuyu_area
+		iquitos_area
+		peruan_coast
+	}
+	monsoon = {
+		00.05.01
+		00.11.30
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+########################################
+# i SEA REGIONS                              
+########################################
+
+baltic_sea_region = {
+	areas = {
+		baltic_area
+		kattegat_area
+	}
+}
+
+north_atlantic_region = {
+	areas = {
+		north_sea_area
+		norwegian_sea_area
+		white_sea_area
+		celtic_sea_area
+		english_channel_area
+		bay_of_biscay_area
+		north_atlantic_area
+		denmark_strait_area
+	}
+}
+
+american_east_coast_region = {
+	areas = {
+		sea_of_labrador_area
+		hudson_bay_sea_area
+		gulf_of_st_lawrence_area
+		gulf_stream_area
+	}
+}
+
+mediterrenean_region = {
+	areas = {
+		eastern_mediterrenean_area
+		western_mediterrenean_area
+		black_sea_area
+	}
+}
+
+caribbean_sea_region = {
+	areas = {
+		bahama_channel_area
+		coast_of_guyana_area
+		caribbean_sea_area
+		gulf_of_mexico_area
+		sargasso_sea_area
+	}
+}
+
+
+west_african_sea_region = {
+	areas = {
+		west_african_coast_sea_area
+		gulf_of_guinea_sea_area
+	}
+}
+
+west_indian_ocean_region = {
+	areas = {
+		western_indian_ocean_area
+		swahili_coast_sea_area
+	}
+}
+
+arabian_sea_region = {
+	areas = {
+		arabian_sea_area
+		persian_gulf_area
+		red_sea_area
+	}
+}
+
+east_indian_ocean_region = {
+	areas = {
+		eastern_indian_ocean_area
+		bay_of_bengal_area
+		andaman_sea_area
+	}
+}
+
+south_indian_ocean_region = {
+	areas = {
+		south_indian_ocean_area
+	}
+}
+
+south_china_sea_region = {
+	areas = {
+		java_sea_area
+		south_china_sea_area
+		celebes_sea_area
+		banda_arafura_seas_area
+	}
+}
+
+east_china_sea_region = {
+	areas = {
+		east_china_sea_area
+		philipine_sea_area
+		sea_of_japan_area
+		sea_of_okhotsk_area
+	}
+}
+
+north_west_pacific_region = {
+	areas = {
+		east_pacific_ocean_area
+	}
+}
+
+south_west_pacific_region = {
+	areas = {
+		coral_sea_area
+		tasman_sea_area
+		great_australian_bight_area
+	}
+}
+
+south_east_pacific_region = {
+	areas = {
+		south_pacific_area
+		polynesian_triangle_area
+	}
+}
+
+north_east_pacific_region = {
+	areas = {
+		north_pacific_area
+		north_pacific_coast_area
+		berring_sea_area
+		gulf_of_alaska_area
+	}
+}
+
+pacific_south_america_region = {
+	areas = {
+		chilean_sea_area
+		sea_of_grau_area
+		gulf_of_panama_area
+	}
+}
+
+atlantic_south_america_region = {
+	areas = {
+		coast_of_brazil_sea_area
+		argentine_sea_area
+	}
+}
+
+south_atlantic_region = {
+	areas = {
+		south_atlantic_area
+		skeleton_coast_area
+		cape_of_storms_area
+	}
+}
+
+east_siberia_region = { }
+
+unused_regionb = {
+	areas = {
+		ad_dahna_area
+		amnok_area
+		arabian_sea_islands_area
+		baltic_islands_area
+		brabant_area
+		carnatic_area
+		central_doab_area
+		central_egypt_area
+		coromandel_area
+		east_african_islands_area
+		east_altishahr_area
+		east_china_sea_islands_area
+		eastern_ireland_area
+		eastern_mediterrenean_islands_area
+		georgia_area
+		gharbia_area
+		great_moluccas_area
+		gujarat_area
+		hejaz_area
+		kerala_area
+		khorasan_area
+		libyan_desert_area
+		luxemburg_liege_area
+		maharashtra_area
+		mercia_area
+		najd_area
+		nepalese_area
+		north_korea_area
+		northern_england_area
+		odishi_area
+		rakka_area
+		sarat_area
+		seine_area
+		sharqiya_area
+		sonora_y_sinaloa_area
+		south_kurdistan_area
+		upper_egypt_area
+		western_aegean_area
+		western_ireland_area
+	}
+}

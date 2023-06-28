@@ -1,0 +1,206 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+
+# Scandinavia
+7643;7644;sea;12119;-1;-1;-1;-1;Husum - Wyk auf Fohr
+7688;1984;sea;8770;-1;-1;-1;-1;Fladstrand - Aalborg
+7689;1984;sea;8770;-1;-1;-1;-1;Hjorring - Aalborg
+4149;7693;sea;8766;-1;-1;-1;-1;Kolding - Middelfart
+7694;1983;sea;8766;-1;-1;-1;-1;Svendborg - Nykobing
+1983;7695;sea;8767;-1;-1;-1;-1;Nykobing - Vordingborg
+7703;7702;sea;8764;-1;-1;-1;-1;Helsingor - Helsingborg
+3;7706;sea;8755;-1;-1;-1;-1;Kalmar - Otterby
+1930;7888;sea;1928;-1;-1;-1;-1;Mariehamn - Lemland
+27;7887;sea;1253;-1;-1;-1;-1;Turku - Naantali
+19;8743;sea;1252;-1;-1;-1;-1;Vaasa - Svedjehamn
+21;7819;sea;1264;-1;-1;-1;-1;Narvik - Harstad
+7819;7820;sea;1265;-1;-1;-1;-1;Harstad - Sortland
+7819;7821;sea;1265;-1;-1;-1;-1;Harstad - Leknes
+7698;7692;sea;8768;-1;-1;-1;-1;Slagelse - Samso
+7692;14;sea;8768;-1;-1;-1;-1;Samso - Odense
+7692;4142;sea;8768;-1;-1;-1;-1;Samso - Aarhus
+
+# Baltic Sea
+7895;7924;sea;8751;-1;-1;-1;-1;Kardla - Valjala
+7924;7906;sea;8751;-1;-1;-1;-1;Valjala - Piltene
+41;43;sea;8759;-1;-1;-1;-1;Konigsberg - Gdansk
+8731;34;sea;8749;-1;-1;-1;-1;Sosnovy Bor - Primorsk
+
+# North Germany
+7655;96;sea;12115;-1;-1;-1;-1;Terneizen - Middelborg
+96;7656;sea;12115;-1;-1;-1;-1;Middelborg - Zierikzee
+7656;4383;sea;1269;-1;-1;-1;-1;Zierikzee - DenHaag
+7657;7656;sea;1269;-1;-1;-1;-1;Berrege - Zierikzee
+7657;96;sea;12115;-1;-1;-1;-1;Berrege - Middelborg
+1744;96;sea;12115;-1;-1;-1;-1;Antwerpen - Middelborg
+7670;7671;sea;12113;-1;-1;-1;-1;Hoorn - Helder
+12047;11871;sea;8761;-1;-1;-1;-1;Wolin - Swinoujsce
+11871;7625;sea;8761;-1;-1;-1;-1;Swinuojsce - Heringsdorf
+7625;2994;sea;8761;-1;-1;-1;-1;Heringsdorf - Wolgast
+7625;7624;sea;8761;-1;-1;-1;-1;Heringsdorf - Anklam
+2994;7626;sea;8763;-1;-1;-1;-1;Wolgast - Rugen
+47;7626;sea;8763;-1;-1;-1;-1;Stralsund - Rugen
+
+# Mediterranean
+226;1751;sea;1293;-1;-1;-1;-1;Gibraltar - Ceuta
+7437;7440;sea;11552;-1;-1;-1;-1;Olbia - Figari
+7372;7373;sea;11551;-1;-1;-1;-1;Piombino - Elba
+124;123;sea;1307;-1;-1;-1;-1;Messina - Reggio di Calabria
+5738;2954;sea;1305;-1;-1;-1;-1;Medinine - Djerba
+8119;142;sea;8235;-1;-1;-1;-1;Sarande - Corfu
+8094;8093;sea;11541;-1;-1;-1;-1;Makarska - Hvar
+8093;8092;sea;11541;-1;-1;-1;-1;Hvar - Split
+11945;11944;sea;11540;-1;-1;-1;-1;Senj - Krk
+11944;8089;sea;11540;-1;-1;-1;-1;Krk - Cres
+8089;11943;sea;11540;-1;-1;-1;-1;Cres - Pazin
+112;1774;sea;11772;-1;-1;-1;-1;Venice - Treviso
+112;7336;sea;11772;-1;-1;-1;-1;Venice - Chioggia
+112;7351;sea;11772;-1;-1;-1;-1;Venice - San Dona di Piave
+8159;8163;sea;8233;-1;-1;-1;-1;Lekada - Asos
+1773;8164;sea;8233;-1;-1;-1;-1;Nafplio - Planos
+8162;8165;sea;8233;-1;-1;-1;-1;Missolonghi - Patros
+8175;8179;sea;1319;-1;-1;-1;-1;Istiaia - Volos
+8174;11960;sea;8228;-1;-1;-1;-1;Marmari - Mikonos
+11960;164;sea;8228;-1;-1;-1;-1;Mikonos - Naxos
+164;11961;sea;8228;-1;-1;-1;-1;Naxos - Adamantas
+11961;146;sea;8228;-1;-1;-1;-1;Adamantas - Athens
+8337;320;sea;8231;-1;-1;-1;-1;Marmaris - Rhodes
+8337;8330;sea;8231;-1;-1;-1;-1;Marmaris - Kos
+8336;8330;sea;8231;-1;-1;-1;-1;Bodrum - Kos
+8330;8329;sea;8231;-1;-1;-1;-1;Kos - Patnos
+8326;8327;sea;8227;-1;-1;-1;-1;Kusadasi - Samos
+8325;2348;sea;8226;-1;-1;-1;-1;Cesme - Karfas
+2296;8318;sea;8226;-1;-1;-1;-1;Karasi - Mitilini
+8303;2296;sea;8225;-1;-1;-1;-1;Gelibolu - Karasi
+8195;11962;sea;8223;-1;-1;-1;-1;Kavala - Ilmenaria
+151;8311;sea;1320;-1;-1;-1;-1;Constantinople - Gebze
+8555;2447;sea;8693;-1;-1;-1;-1;Kerch - Anapa
+8317;8304;sea;1320;-1;-1;-1;-1;Biga - Sarkoy
+
+# Britain
+7100;7101;sea;11784;-1;-1;-1;-1;Ceann Locha - Port Ilein
+11802;7102;sea;11785;-1;-1;-1;-1;Oban - Tobar Mhoire
+7103;7102;sea;11785;-1;-1;-1;-1;An Gearasdan - Tobar Mhoire
+7103;4364;sea;11785;-1;-1;-1;-1;An Gearasdan - Skye
+253;7107;sea;11785;-1;-1;-1;-1;Stornoway - Loch nam Madadh
+7104;369;sea;1299;-1;-1;-1;-1;Inbhir Theorsa - Kirkwall
+242;7077;sea;1284;-1;-1;-1;-1;Caernarvon - Caergybi
+7050;7049;sea;12110;-1;-1;-1;-1;Portsmouth - Yarmouth
+7048;7049;sea;12110;-1;-1;-1;-1;Poole - Yarmouth
+
+# Eastern Europe
+8616;8623;lake;8565;-1;-1;-1;-1;Svitlovodsk - Kremenchuk
+1944;2407;lake;8565;-1;-1;-1;-1;Cherkasy - Pereyaslav
+8566;8621;lake;8564;-1;-1;-1;-1;Nikopol - Enerhodar
+8722;8792;lake;1262;-1;-1;-1;-1;Pindushi - Chelmuzhi
+8830;8831;sea;8815;-1;-1;-1;-1;Karatayka - Vaygach
+1081;8887;lake;8546;-1;-1;-1;-1;Simbirsk - Melekess
+4267;4264;lake;8546;-1;-1;-1;-1;Tetyushi - Boglar
+
+# Arabia
+387;6231;sea;1330;-1;-1;-1;-1;Mokha - Obock
+394;396;sea;11703;-1;-1;-1;-1;Dammam - Bahrain
+3940;2999;sea;1334;-1;-1;-1;-1;Hormuz - Khamir
+
+# India
+3676;2100;sea;11695;-1;-1;-1;-1;Athiyuth - Vavuniya
+4474;3623;sea;1343;-1;-1;-1;-1;Chowmuhani - Char Fasson
+2039;3623;sea;1343;-1;-1;-1;-1;Barisal - Char Fasson
+
+# South East Asia
+3523;2686;sea;1361;-1;-1;-1;-1;Singapore - Bintan
+3523;3505;sea;1361;-1;-1;-1;-1;Singapore - Selat Panjang
+3491;3495;sea;11657;-1;-1;-1;-1;Simpangtiga - Toboali
+623;624;sea;1352;-1;-1;-1;-1;Bandar Lampung - Cilegong
+628;2692;sea;1355;-1;-1;-1;-1;Surabvaya - Pamekasan
+3476;3473;sea;11627;-1;-1;-1;-1;Banyuwangi - Negara
+2693;3471;sea;11627;-1;-1;-1;-1;Mataram - Pernang
+3467;3466;sea;11625;-1;-1;-1;-1;Nobo - Hadaweka
+3466;3465;sea;11625;-1;-1;-1;-1;Hadaweka - Kalabahi
+3465;3456;sea;11625;-1;-1;-1;-1;Kalabahi - Dili
+3456;3455;sea;11625;-1;-1;-1;-1;Dili - Wasiri
+642;2716;sea;11630;-1;-1;-1;-1;Kendari - Kamaru
+2716;3077;sea;11630;-1;-1;-1;-1;Kamaru - Raha
+3076;3078;sea;11629;-1;-1;-1;-1;Laora - Dongkala
+3062;3063;sea;11634;-1;-1;-1;-1;Bunta - Banggai
+2717;12044;sea;11610;-1;-1;-1;-1;Bobong - Pelabuhan
+646;647;sea;11632;-1;-1;-1;-1;Luhu - Ambon
+650;3083;sea;11611;-1;-1;-1;-1;Tidore - Palamea
+3083;3084;sea;11611;-1;-1;-1;-1;Palamea - Weda
+12040;3085;sea;11613;-1;-1;-1;-1;Talen - Pandanga
+3088;3086;sea;1400;-1;-1;-1;-1;Waiwo - Gasim
+1236;3142;sea;11601;-1;-1;-1;-1;Rabaul - Lasu
+3133;3135;sea;1406;-1;-1;-1;-1;Gibara - Esa'ala
+
+# North Asia
+4355;4353;sea;11642;-1;-1;-1;-1;Surigao - Ormoc
+4353;3017;sea;11642;-1;-1;-1;-1;Ormoc - Tagbilaran
+3017;4352;sea;11642;-1;-1;-1;-1;Tagbilaran - Cebu
+4352;3018;sea;11642;-1;-1;-1;-1;Cebu - Kabankalan
+4351;3019;sea;11649;-1;-1;-1;-1;Bacolod - Iloilo
+4353;3016;sea;1397;-1;-1;-1;-1;Ormoc - Borongan
+654;3015;sea;1397;-1;-1;-1;-1;Calbayog - Legazpi
+654;3012;sea;1397;-1;-1;-1;-1;Calbayog - Masbate
+3012;3015;sea;1397;-1;-1;-1;-1;Masbate - Legazpi
+2700;3011;sea;1397;-1;-1;-1;-1;Kalibo - Romblon
+3011;3010;sea;1397;-1;-1;-1;-1;Romblin - Bulalacao
+4356;3027;sea;4357;-1;-1;-1;-1;Taytay - Coron
+4350;3007;sea;1395;-1;-1;-1;-1;Mamburao - Batangas
+666;2159;sea;1370;-1;-1;-1;-1;Haikou - Zhanjiang
+9645;9647;sea;11669;-1;-1;-1;-1;Tainan - Penghu
+9582;9581;sea;11688;-1;-1;-1;-1;Kanoya - Nishinoomote
+1014;9573;sea;11687;-1;-1;-1;-1;Ozu - Oita
+1818;9576;sea;1390;-1;-1;-1;-1;Nagato - Kitakyushu
+4186;9575;sea;1390;-1;-1;-1;-1;Fukuyama - Iyo
+9570;9569;sea;1391;-1;-1;-1;-1;Takamatsu - Awaji
+1820;9569;sea;1391;-1;-1;-1;-1;Awa - Awaji
+9569;9568;sea;1391;-1;-1;-1;-1;Awaji - Kobe
+4359;4360;sea;11684;-1;-1;-1;-1;Ise - Okazaki
+1024;9549;sea;1980;-1;-1;-1;-1;Niigata - Sado
+9536;4193;sea;1387;-1;-1;-1;-1;Tsugaru - Hakodate
+1852;9533;sea;4225;-1;-1;-1;-1;Nemuro - Shikotan
+1050;9450;sea;1379;-1;-1;-1;-1;Dzhaore - Okha
+1032;9427;sea;1383;-1;-1;-1;-1;SeveroKurilsk - Kikchik
+
+# Oceania
+3278;3279;sea;1415;-1;-1;-1;-1;Victor Harbour - Karatta
+3389;3390;sea;1410;-1;-1;-1;-1;Numbulwar - Alyangula
+3228;3227;sea;11588;-1;-1;-1;-1;Owaka - Rakiura
+1107;3212;sea;1423;-1;-1;-1;-1;Taranaki - Waiharakehe
+3179;1242;sea;12100;-1;-1;-1;-1;Malevu - Tabwakea
+3180;3177;sea;12100;-1;-1;-1;-1;Levuka - Suva
+3180;3178;sea;12101;-1;-1;-1;-1;Levuka - Savusavu
+3178;3181;sea;12101;-1;-1;-1;-1;Savusavu - Lomaji
+3185;1243;sea;1726;-1;-1;-1;-1;Fagamalo - Apia
+1989;3183;sea;12097;-1;-1;-1;-1;Nuku'alofa - Neiafu
+1240;10983;sea;1697;-1;-1;-1;-1;Honokaa - Kahului
+10983;10984;sea;1697;-1;-1;-1;-1;Kahului - Honolulu
+
+# North America
+9856;9855;sea;11576;-1;-1;-1;-1;Bathhurst Inlet - Umingmaktok
+10147;981;sea;1493;-1;-1;-1;-1;Blanc-Sabon - St Anthony
+2576;2578;sea;1490;-1;-1;-1;-1;HavreStPierre - Port Menier
+10170;10177;sea;11762;-1;-1;-1;-1;Cardigan - New Glasgow
+10176;983;sea;11762;-1;-1;-1;-1;Amherst - Summerside
+10171;10178;sea;1491;-1;-1;-1;-1;Port Dufferin - Cheticamp
+962;10236;sea;1500;-1;-1;-1;-1;Vineland - Wilmington
+10241;10240;sea;11733;-1;-1;-1;-1;Salisbury - Annapolis
+10240;2550;sea;11733;-1;-1;-1;-1;Annapolis - Fredericksburg
+10242;10244;sea;11733;-1;-1;-1;-1;Chincoteague - Chesapeake
+10787;10788;sea;1503;-1;-1;-1;-1;Freeport - Cooperstown
+10789;10790;sea;1503;-1;-1;-1;-1;Dunsmoretown - Arthurstown
+10790;10791;sea;1503;-1;-1;-1;-1;Arthurstown - Georgetown
+10796;4622;sea;1518;-1;-1;-1;-1;San Cristobal - Canimar
+492;493;sea;1526;-1;-1;-1;-1;Boriken - St Thomas
+2021;10481;sea;1556;-1;-1;-1;-1;SanFran - SantaRosa
+
+# South America
+11111;11110;sea;11746;-1;-1;-1;-1;Cumana - Porlamar
+11113;11116;sea;1522;-1;-1;-1;-1;Carupano - Chaguanas
+11115;10811;sea;1522;-1;-1;-1;-1;Arima - Scarborough
+747;2890;sea;1529;-1;-1;-1;-1;Macapa - Tucuma
+11356;11357;sea;1538;-1;-1;-1;-1;PuntaDelgada - Primavera
+11362;11361;sea;1587;-1;-1;-1;-1;Chartres - Mariqueta
+11343;2873;sea;1541;-1;-1;-1;-1;PuertoMontt - Castro
+
+#End
+-1;-1;;-1;-1;-1;-1;-1;-1;
